@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="OneTime-images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+PE:wght@100..400&display=swap" rel="stylesheet">    
+    <title>OneTime</title>
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="navbar1">
+            <div class="navbar1-content">
+                <div class="left">
+                    <span class="ph--globe"></span>
+                    <div id="country">OneTime Philippines</div>
+                </div>
+                <div class="right" class="primary-navigation">
+                    <a href="#Home">Home</a>
+                    <a href="#About-Us">About Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar2">
+            <div class="navbar2-content">
+                <button class="open-btn" onclick="toggleSidebar()">
+                    <span class="charm--menu-hamburger"></span>
+                </button>
+                
+                <div class="sidebar" id="sidebar" class="primary-navigation">
+                    <button class="close-btn" onclick="toggleSidebar()">
+                        <span class="oi--x"></span>
+                    </button>
+                    <a href="#Home" onclick="toggleSidebar()">Home</a>
+                    <a href="https://www.facebook.com/profile.php?id=100083774568391" onclick="toggleSidebar()">Inquire Now</a>
+                    <a href="#About-Us" onclick="toggleSidebar()">About Us</a>
+                    <a href="#main3-id" onclick="toggleSidebar()">Food Cart</a>
+                    <a href="#Franchising" onclick="toggleSidebar()">Franchising</a>
+                    <a href="#Seminars" onclick="toggleSidebar()">Seminars</a>
+                    <a href="#Vision-&-Mission" onclick="toggleSidebar()">Vision & Mission</a>
+                </div>
+                
+            
+                <div class="logo">
+                    <img src="OneTime-images/logo.png" alt="OneTime Logo">
+                </div>
+                <div class="choices">
+                    <a href="#main3-id">Food Cart</a>
+                    <a href="#Franchising">Franchising</a>
+                    <a href="#Seminars">Seminars</a>
+                    <a href="#Vision-&-Mission">Vision & Mission</a>
+                </div>
+                <button id="button1" onclick="window.location.href='https://www.facebook.com/profile.php?id=100083774568391'">Inquire Now</button>
+                <button class="open-btn" onclick="toggleSidebar()" id="invisible">
+                    <span class="charm--menu-hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="main1" id="Home">
+        <div class="main1-content">
+            <h1>Be <span>one</span> of our <span>Franchisee!</span></h1>
+            <p>Join the OneTime family and embark on an exciting journey in the food cart industry. 
+
+                <br><br>We provide comprehensive support and high quality products, ensuring your success every step of the way. Take the leap and become a OneTime franchisee today!</p>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="main2-content">
+            <div class="main2-content-image">
+                <img src="OneTime-images/package-image.png" alt="Food Image">
+            </div>
+            <div class="main2-content-text">
+                <h1><span>Enjoy</span> Package Deals!</h1>
+                <p><span>Refreshing value enjoy anytime, anywhere.</span>
+                <br>Irresistible flavors, perfect meal for any customers.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="main3">
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <ul class="carousel">
+              <li class="card">
+                <div class="img">
+                    <img src="OneTime-images/cart1.png" alt="img" draggable="false">
+                </div>
+                <div class="cart-information">
+                    <h1>Tealicious</h1>
+                    <p id="package-info">Milk Tea Package (with Equipment)</p>
+                    <p>Original Price: PHP 100,000</p>
+                    <p id="promo-price">Promo Price: PHP 24,499</p>
+                    <p>Free semi high-end food cart</p>
+                    <p>Free high-end cup sealer</p>
+                    <p>Free milk tea shaker</p>
+                    <p>Free products worth PHP 3,500</p>
+                    <p>Free measuring cup</p>
+                    <p>Free measuring scoop</p>
+                    <p>Free large and small measuring bottles</p>
+                    <p>Free stainless steel stirrer</p>
+                    <p>Free film</p>
+                    <p>Free apron</p>
+                    <p>Free tarpaulin</p>
+                    <p>Free wire whisk</p>
+                    <p>Free menu boards</p>
+                    <p>Free training video</p>
+                    <p>Lifetime contract</p>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                    <img src="OneTime-images/cart2.png" alt="img" draggable="false">
+                </div>
+                <div class="cart-information">
+                    <h1>Tealicious</h1>
+                    <p id="package-info">Milk Tea Package (with Equipment)</p>
+                    <p>Original Price: PHP 100,000</p>
+                    <p id="promo-price">Promo Price: PHP 24,499</p>
+                    <p>Free semi high-end food cart</p>
+                    <p>Free high-end cup sealer</p>
+                    <p>Free milk tea shaker</p>
+                    <p>Free products worth PHP 3,500</p>
+                    <p>Free measuring cup</p>
+                    <p>Free measuring scoop</p>
+                    <p>Free large and small measuring bottles</p>
+                    <p>Free stainless steel stirrer</p>
+                    <p>Free film</p>
+                    <p>Free apron</p>
+                    <p>Free tarpaulin</p>
+                    <p>Free wire whisk</p>
+                    <p>Free menu boards</p>
+                    <p>Free training video</p>
+                    <p>Lifetime contract</p>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                    <img src="OneTime-images/cart3.png" alt="img" draggable="false">
+                </div>
+                <div class="cart-information">
+                    <h1>Tealicious</h1>
+                    <p id="package-info">Milk Tea Package (with Equipment)</p>
+                    <p>Original Price: PHP 100,000</p>
+                    <p id="promo-price">Promo Price: PHP 24,499</p>
+                    <p>Free semi high-end food cart</p>
+                    <p>Free high-end cup sealer</p>
+                    <p>Free milk tea shaker</p>
+                    <p>Free products worth PHP 3,500</p>
+                    <p>Free measuring cup</p>
+                    <p>Free measuring scoop</p>
+                    <p>Free large and small measuring bottles</p>
+                    <p>Free stainless steel stirrer</p>
+                    <p>Free film</p>
+                    <p>Free apron</p>
+                    <p>Free tarpaulin</p>
+                    <p>Free wire whisk</p>
+                    <p>Free menu boards</p>
+                    <p>Free training video</p>
+                    <p>Lifetime contract</p>
+                </div>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+          </div>
+    </div>
+    <div class="main4" id="Franchising">
+        <div class="main4-content">
+            <div class="main4-content-left">
+                <div class="main4-content-left-text1">
+                    <h1><span>Reserve</span> your slot now!</h1>
+                    <p>Be one of our newest franchisee in your area.</p>
+                </div>
+                <div class="main4-content-left-text2">
+                    <p><span class="entypo--check"></span> No renewal fee.</p>
+                    <p><span class="entypo--check"></span> No royalty fee.</p>
+                    <p><span class="entypo--check"></span> No hidden charges.</p>
+                    <p><span class="entypo--check"></span> No quota.</p>
+                    <p><span class="entypo--check"></span> Halal</p>
+                    <p><span class="entypo--check"></span> You can mark and mark down the prices.</p>
+                    <p><span class="entypo--check"></span> 300 meters zoning rules.</p>
+                    <p><span class="entypo--check"></span> Marketing support.</p>
+                    <p><span class="entypo--check"></span> We have our own commissary.</p>
+                    <p><span class="entypo--check"></span> Free advertising.</p>
+                </div>
+                <button id="button2" onclick="window.location.href='https://www.facebook.com/profile.php?id=100083774568391'">Inquire Now</button>
+            </div>
+            <div class="main4-content-image">
+                <img src="OneTime-images/franchisees.png" alt="Franchisees Image">
+            </div>
+        </div>
+    </div>
+    <div class="main5">
+        <div class="main5-content">
+            <div class="main5-content-top-text">
+                <h1><span>Franchise</span> Now!</h1>
+                <p>Become a OneTime franchisee and be part of a growing network of successful food cart businesses. We offer comprehensive support, from the initial setup to ongoing supply needs, ensuring you have everything required to thrive. Explore the opportunities with our Tasty Bites Pizza, Tealicious Milk Tea, and Flame On Fry and Grill food carts and start your entrepreneurial journey today.</p>
+            </div>
+            <div class="main5-content-bottom-text">
+                <h1><span>Operating</span> Franchisees</h1>
+                <div class="main5-content-bottom-text-location">
+                    <div class="main5-content-bottom-text-location-left">
+                        <p><span class="mdi--location"></span> Iligan City</p>
+                        <p><span class="mdi--location"></span> Gingoog City</p>
+                        <p><span class="mdi--location"></span> Maramag, Bukidnon</p>
+                        <p><span class="mdi--location"></span> Valencia, Bukidnon</p>
+                        <p><span class="mdi--location"></span> Cabadbaran City</p>
+                        <p><span class="mdi--location"></span> Bayugan City</p>
+                        <p><span class="mdi--location"></span> Zamboanga del Sur</p>
+                        <p><span class="mdi--location"></span> Clarin, Misamis Occidental</p>
+                        <p><span class="mdi--location"></span> Pagadian City</p>
+                    </div>
+                    <div class="main5-content-bottom-text-location-right">
+                        <p><span class="mdi--location"></span> Davao City</p>
+                        <p><span class="mdi--location"></span> Lala, Maranding</p>
+                        <p><span class="mdi--location"></span> Tandag City</p>
+                        <p><span class="mdi--location"></span> Marawi City</p>
+                        <p><span class="mdi--location"></span> Misamis Oriental</p>
+                        <p><span class="mdi--location"></span> Pagadian City</p>
+                        <p><span class="mdi--location"></span> Don Carlos, Bukidnon</p>
+                        <p><span class="mdi--location"></span> South Cotabato</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main6" id="About-Us">
+        <div class="main6-content">
+            <div class="main6-content-top">
+                <div class="main6-content-top1">
+                    <h1><span>About</span> Us</h1>
+                    <p>We live and  deliver “One Small Step at a Time.”</p>
+                </div>
+                <div class="main6-content-top2">
+                    <p>The company was established in Cagayan de Oro City during the  pandemic where many people started losing jobs. We wish to help  aspiring business owners carefully consider and form a well-thought-  out plan on how they can multiply their savings through highly  profitable concepts. We have envisioned to provide entrepreneurs an  effective livelihood that is just within people’s budget.</p>
+                </div>
+            </div>
+            <div class="main6-content-card">
+                <div class="main6-content-card-profile">
+                    <img src="OneTime-images/profile.jpg" alt="">
+                </div>
+                <div class="information">
+                    <div class="name-position">
+                        <h1>Romeo Palmares</h1>
+                        <p>Chief Executive Officer</p>
+                    </div>
+                    <p>“At OneTime, we are passionate about empowering entrepreneurs and transforming dreams into reality. Our mission is to provide aspiring business owners with the opportunity to thrive in the dynamic food cart industry.”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main66" id="Seminars">
+        <div class="main66-content">
+            <div class="main66-content-top">
+                <h1 style="color: #29176d; font-weight: bold; font-size: clamp(2rem, 3vw, 4rem); margin: 3rem 0rem;">Seminars</h1>
+                <p style="margin-bottom: 3rem; font-size: clamp(1rem, 3vw, 1.2rem); font-weight: bold; margin-bottom: 6rem;">Join our informative seminars designed to guide potential franchisees through the ins and outs of the food cart business. Learn from industry experts, gain valuable insights, and get all your questions answered. Our seminars provide the perfect platform to make informed decisions about your investment and future success.</p>
+            </div>
+            <div class="main66-content-bottom">
+                <p style="font-weight: bold; font-size: clamp(1rem, 3vw, 1.2rem); color: white; background-color: #f4b312; padding: 2rem 1rem;">Thank you for selecting One-Time Food Services to begin <br>your own food cart business!</p>
+            </div>
+        </div>
+    </div>
+    <div class="main7" id="Vision-&-Mission">
+        <div class="main7-content">
+            <div class="main7-content-top">
+                <h1 style="margin-top: 5rem;">Vision <span>&</span> Mission</h1>
+                <p>Our Business,Our Responsibility.</p>
+            </div>
+            <div class="vission-mission">
+                <div class="vission-mission-content">
+                    <div class="v-m-image">
+                        <img src="OneTime-images/vision.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h1>Vision</h1>
+                        <p>"To become the leader in alliance with franchisees to help  them achieve their dreams and goals. And to be a company  who is admired for the excellence that franchisees  experience and see them where they want their business to  take them."</p>
+                    </div>
+                </div>
+                <div class="vission-mission-content vission-mission-content2">
+                    <div class="v-m-image">
+                        <img src="OneTime-images/mission.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h1>Mission</h1>
+                        <p>"To create a whole new customer base along with a  whole new range of business opportunities that  would shape a culture and define the character of our  company."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-content-top">
+                <div class="logo">
+                    <img src="OneTime-images/logo.png" alt="OneTime Logo">
+                </div>
+                <div class="foodcart-footer">
+                    <h1>Food Cart</h1>
+                    <p>Tasty Bites</p>
+                    <p>Tealicious</p>
+                    <p>Flame On</p>
+                </div>
+                <div class="contact-us-footer">
+                    <h1>Contact Us</h1>
+                    <p><span class="material-symbols--call"></span> 0995 113 8073</p>
+                    <p><span class="clarity--email-solid"></span> donodave91@gmail.com</p>
+                </div>
+                <div class="location-footer">
+                    <h1>Location</h1>
+                    <p><span class="mdi--location"></span> Barangay 10, Yacapin Street corner Capistrano, Cagayan de Oro City, Cagayan de Oro, Philippines</p>
+                </div>
+            </div>
+            <div class="footer-content-bottom">
+                <p>© 2024 OneTime.com.ph</p>
+                <a class="logos--facebook" href="https://www.facebook.com/profile.php?id=100083774568391"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =============JAVASCRIPT================= -->
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active-sidebar');
+        }
+
+        const navigation = document.querySelector(".primary-navigation");
+
+        const navigationHeight = navigation.offsetHeight;
+
+        document.documentElement.style.setProperty(
+        "--scroll-padding",
+        navigationHeight + "px"
+        );
+
+    </script>
+</body>
+</html>
