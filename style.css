@@ -4,14 +4,14 @@
     box-sizing: border-box;
     font-family: "Nunito", sans-serif;
 }
+
 /* ================================= */
 .main3{
-    min-height: 720px;
+    min-height: fit-content;
     height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
     padding: 2rem;
     width: 100vw;
 }
@@ -21,7 +21,9 @@
     position: relative;
     margin: 0 auto;
   }
-  /* .wrapper i {
+/* =================== */
+
+  .wrapper i {
     top: 50%;
     width: min(50px, 100%);
     cursor: pointer;
@@ -39,15 +41,17 @@
     transform: translateY(-50%) scale(0.85);
   }
   .wrapper i:first-child{
-    left: -22px;
+    left: -10px;
   }
   .wrapper i:last-child{
     right: -10px;
-  } */
+  }
+
+/* ==================== */
   .wrapper .carousel{
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 1) - 12px);
+    grid-auto-columns: calc((100% / 1) - 4rem);
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 16px;
@@ -76,6 +80,7 @@
     align-items: center;
     flex-wrap: wrap;
   }
+
   .carousel .card {
     padding: 2rem;
     scroll-snap-align: start;
@@ -90,7 +95,7 @@
   .carousel .card .img {
     display: flex;
     height: auto;
-    width: min(20rem, 100%);
+    width: min(15rem, 100%);
     overflow: hidden;
   }
   .card .img img {
@@ -98,6 +103,7 @@
     height: auto;
     object-fit: cover;
   }
+
   
 
   .cart-information h1{
@@ -110,10 +116,18 @@
   .cart-information p{
     font-size: clamp(1rem, 3vw, 1.2 rem);
     color: white;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
   }
 
-  #package-info, #promo-price{
+  #promo-price{
+    font-size: clamp(1.2rem, 3vw, 1rem);
+  }
+
+  #package-info{
+    margin-bottom: 2rem;
+  }
+
+  .promo-price2{
     margin-bottom: 2rem;
   }
   
@@ -122,6 +136,7 @@
   }
 
 /* ================================= */
+
 
 
 .ph--globe {
@@ -1111,5 +1126,13 @@ footer{
   @media screen and (max-width: 600px) {
     .wrapper .carousel {
       grid-auto-columns: 100%;
+    }
+
+    .wrapper i{
+        display: none;
+    }
+
+    #cart-name{
+        text-align: center;
     }
   }
