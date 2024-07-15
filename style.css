@@ -82,7 +82,7 @@
   }
 
   .carousel .card {
-    padding: 2rem;
+    padding: 3rem;
     scroll-snap-align: start;
     list-style: none;
     background-image: url(OneTime-images/cart-cover.png);
@@ -1126,10 +1126,6 @@ footer{
   @media screen and (max-width: 600px) {
     .wrapper .carousel {
       grid-auto-columns: 100%;
-    }
-
-    .wrapper i{
-        display: none;
     }
 
     #cart-name{
